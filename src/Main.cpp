@@ -462,7 +462,7 @@ int main(int argc, char *argv[])
                     fileOutput.open(logFileName);
                     infoOutput = &fileOutput;
                 } else {
-//                    clearConsole();
+                    clearConsole();
                 }
                 virtualInterface.doBookkeeping();
                 virtualInterface.printIfStats(*infoOutput);
